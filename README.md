@@ -24,8 +24,8 @@ Rather than a standard plug-and-play training approach, this project heavily foc
 ###  A/B Testing: Base Model vs. Fine-Tuned LoRA
 Controlled inference tests (same seed, same prompt, zero data leakage) demonstrate the LoRA's effectiveness:
 
-* **Base SD 1.5 (Right):** Fails to recognize the specific drone anatomy, resulting in token hallucination and melted landing gears.
-* **Custom LoRA (Left):** Perfectly preserves the asymmetric gimbal structure, brand stripes, and mechanical integrity.
+* **Base SD 1.5 (Left):** Fails to recognize the specific drone anatomy, resulting in token hallucination and melted landing gears.
+* **Custom LoRA (Right):** Perfectly preserves the asymmetric gimbal structure, brand stripes, and mechanical integrity.
 
 | (Base SD 1.5) | (Custom LoRA) |
 | :---: | :---: |
